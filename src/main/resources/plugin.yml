@@ -1,0 +1,7 @@
+name: QueuedCommand
+version: '${project.version}'
+main: dev.orhidea.commandqueue.QueuedCommand
+api-version: '1.20'
+depend: [MassiveCore]
+authors: [Dejavu]
+description: Allow to queue command for players that are offline.
