@@ -4,3 +4,7 @@
 
 # Command placehoders
 {player} - Replaces with player name
+
+
+
+# Use as you please.
