@@ -12,7 +12,7 @@ public class CommandQueueCommand extends MassiveCommand {
     public static CommandQueueCommand get() { return i; }
 
     private CommandQueueCommand() {
-        this.setAliases("cq", "cq", "queuecommand", "commandqueue");
+        this.setAliases("cq", "qc", "queuecommand", "commandqueue");
         this.setVisibility(Visibility.SECRET);
         this.setDesc("Queue command to execute for player even if offline");
 
